@@ -41,7 +41,7 @@ public class Main {
                     break;
                 case 3:
                     String msg = "";
-                    for(Pessoa p : listPessoas){
+                    for(Pessoa p : listPessoas){                        
                         if(p instanceof PessoaFisica)
                             msg += ((PessoaFisica)p).imprimir() + "\n ------ \n";
                         else
